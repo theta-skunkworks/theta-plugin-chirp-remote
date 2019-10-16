@@ -125,12 +125,14 @@ Please register as a user according to [this page](https://developers.chirp.io/a
 Acquire the “CHIRP_APP_CONFIG” key information for each of the three frequencies, and enter them in the following locations in MainActivity.java.
 
 ```java:MainActivity.java
+    private static final String CHIRP_APP_KEY = "Please set the credential you have acquired.";
+    private static final String CHIRP_APP_SECRET = "Please set the credential you have acquired.";
     //16kHz-mono
-    String CHIRP_APP_CONFIG_16K_MONO = "Please set the CHIRP_APP_CONFIG key for the '16kHz-mono' protocol.";
+    private static final String CHIRP_APP_CONFIG_16K_MONO = "Please set the CHIRP_APP_CONFIG key for the '16kHz-mono' protocol.";
     //ultrasonic
-    String CHIRP_APP_CONFIG_US = "Please set the CHIRP_APP_CONFIG key for the 'ultrasonic' protocol.";
+    private static final String CHIRP_APP_CONFIG_US = "Please set the CHIRP_APP_CONFIG key for the 'ultrasonic' protocol.";
     //standard
-    String CHIRP_APP_CONFIG_STD = "Please set the CHIRP_APP_CONFIG key for the 'standard' protocol.";
+    private static final String CHIRP_APP_CONFIG_STD = "Please set the CHIRP_APP_CONFIG key for the 'standard' protocol.";
 ```
 
 

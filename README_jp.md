@@ -1,6 +1,6 @@
 # Chirp Remote
 
-English page [here] (README.md)
+English page [here](README.md)
 
 ## Overview
 

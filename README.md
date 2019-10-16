@@ -1,6 +1,6 @@
 # Chirp Remote
 
-Japanese page [here] (README_jp.md)
+Japanese page [here](README_jp.md)
 
 ## Overview
 

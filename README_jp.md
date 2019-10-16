@@ -4,7 +4,7 @@ English page [here](README.md)
 
 ## Overview
 
-このTHETAプラグインは[Chirpを使用しています](http://www.chirp.io)。
+このTHETAプラグインは[Chirpを使用しています](http://www.chirp.io)。<br>
 このTHETAプラグインを使うと、Asio Ltd. Chirpライブラリによる音通信によってTHETAをリモート操作できるようになります。
 
 以下2通りの方法で音通信によるTHETAの制御が行えます。
@@ -27,7 +27,7 @@ Chirpは複数の周波数によるプロトコルに対応しています。
 - 「ultrasonic」（多くの人が聴き取れない周波数です）
 - 「standard」（可聴音です）
 
-Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」は、「16kHz-mono」のプロトコルのみに対応しています。
+Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」は、「16kHz-mono」のプロトコルのみに対応しています。<br>
 他のプロトコルで「Chirp Messenger」を利用したい場合には、Asio Ltd.が公開しているソースコードをビルドしなおして利用してください。<br>
  Android用:https://github.com/chirp/chirp-android-examples#kotlin<br>
  iOS用:https://github.com/chirp/chirp-ios-examples/tree/master/Swift/Messenger<br>

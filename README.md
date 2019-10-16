@@ -24,9 +24,9 @@ Among them, this THETA plug-in can use the following three types of protocols.
 
 
 The application “Chirp Messenger” released for smartphones by Asio Ltd. supports only the protocol of “16kHz-mono”.
-If you want to use "Chirp Messenger" with other protocols, please rebuild and use the source code published by Asio Ltd.
-  For Android: https://github.com/chirp/chirp-android-examples#kotlin
-  For iOS: https://github.com/chirp/chirp-ios-examples/tree/master/Swift/Messenger
+If you want to use "Chirp Messenger" with other protocols, please rebuild and use the source code published by Asio Ltd.<br>
+  For Android: https://github.com/chirp/chirp-android-examples#kotlin<br>
+  For iOS: https://github.com/chirp/chirp-ios-examples/tree/master/Swift/Messenger<br>
 You can also refer to the “About building this source code” chapter of this document for user registration and protocol selection.
 
 If you want to create your own music files, see [here](https://developers.chirp.io/docs/tutorials/command-line).

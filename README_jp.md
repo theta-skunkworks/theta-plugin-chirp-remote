@@ -9,9 +9,9 @@ English page [here](README.md)
 
 以下2通りの方法で音通信によるTHETAの制御が行えます。
 
-1. Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」を利用して、「List of commands」の章に示すコマンド文字列を送信する。
- Android用:https://play.google.com/store/apps/details?id=io.chirp.messenger
- iOS用:https://apps.apple.com/jp/app/chirp-messenger/id1438119896
+1. Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」を利用して、「List of commands」の章に示すコマンド文字列を送信する。<br>
+ Android用:https://play.google.com/store/apps/details?id=io.chirp.messenger<br>
+ iOS用:https://apps.apple.com/jp/app/chirp-messenger/id1438119896<br>
 
 2. 本リポジトリの「audiofiles」フォルダからダウンロードできる mp3形式 または wav形式の音楽ファイルを、各種オーディオプレーヤーで再生する。
 

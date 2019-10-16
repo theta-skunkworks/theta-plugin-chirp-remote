@@ -115,7 +115,7 @@ The following information is saved when you close the plug-in and is used the ne
 
 ## About building this source code
 
-Please register as a user according to [this page] (https://developers.chirp.io/applications), and write your credentials in the appropriate part of the source code before building.
+Please register as a user according to [this page](https://developers.chirp.io/applications), and write your credentials in the appropriate part of the source code before building.
 
 Acquire the “CHIRP_APP_CONFIG” key information for each of the three frequencies, and enter them in the following locations in MainActivity.java.
 

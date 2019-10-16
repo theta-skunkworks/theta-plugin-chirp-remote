@@ -9,9 +9,9 @@ Using this THETA plug-in, you can remotely control THETA by sound communication 
 
 You can control THETA by sound communication in the following two ways.
 
-1. Using the “Chirp Messenger” app released by Asio Ltd. for smartphones, send the command string shown in the “List of commands” chapter.
-  For Android: https://play.google.com/store/apps/details?id=io.chirp.messenger
-  For iOS: https://apps.apple.com/app/chirp-messenger/id1438119896
+1. Using the “Chirp Messenger” app released by Asio Ltd. for smartphones, send the command string shown in the “List of commands” chapter.<br>
+  For Android: https://play.google.com/store/apps/details?id=io.chirp.messenger<br>
+  For iOS: https://apps.apple.com/app/chirp-messenger/id1438119896<br>
 
 2. Play music files in mp3 or wav format that can be downloaded from the “audiofiles” folder in this repository on various audio players.
 

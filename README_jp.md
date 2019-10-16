@@ -13,7 +13,7 @@ English page [here](README.md)
  Android用:https://play.google.com/store/apps/details?id=io.chirp.messenger<br>
  iOS用:https://apps.apple.com/jp/app/chirp-messenger/id1438119896<br>
 
-2. 本リポジトリの「audiofiles」フォルダからダウンロードできる mp3形式 または wav形式の音楽ファイルを、各種オーディオプレーヤーで再生する。
+2. 本リポジトリの[「audiofiles」](./audiofiles/)フォルダからダウンロードできる mp3形式 または wav形式の音楽ファイルを、各種オーディオプレーヤーで再生する。
 
 Chirpは複数の周波数によるプロトコルに対応しています。
 それらの中で、本THETAプラグインが利用できるプロトコルは以下の3種類です。

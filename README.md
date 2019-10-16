@@ -13,7 +13,7 @@ You can control THETA by sound communication in the following two ways.
   For Android: https://play.google.com/store/apps/details?id=io.chirp.messenger<br>
   For iOS: https://apps.apple.com/app/chirp-messenger/id1438119896<br>
 
-2. Play music files in mp3 or wav format that can be downloaded from the “audiofiles” folder in this repository on various audio players.
+2. Play music files in mp3 or wav format that can be downloaded from the ["audiofiles"](./audiofiles/) folder in this repository on various audio players.
 
 Chirp supports protocols with multiple frequencies.
 Among them, this THETA plug-in can use the following three types of protocols.

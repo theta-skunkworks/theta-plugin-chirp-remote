@@ -39,7 +39,7 @@ If you want to create your own music files, see [here](https://developers.chirp.
 
 ## List of commands
 
-The command is in the format of “command character string + single-byte space + argument”.<br>
+The command is in the format of “Command character string + Single-byte space + Value character string”.<br>
 (Example: If you want to specify -0.3 for exposure compensation, it will be "ev -0.3")
 
 |Command<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Value<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description<br>&nbsp;|
@@ -77,7 +77,7 @@ Each is as follows.
 | AUTO |AUTO [Exposure compensation value] ev[White balance] ['ts' when TimeShift is on]|
 | Aperture priority <br> (Z1 only) |Av [Exposure compensation value]ev F[Aperture value] [White balance] ['ts' when TimeShift is on] |
 | Shutter speed priority |Tv [Exposure compensation value]ev ss[Shutter speed] [White balance] ['ts' when TimeShift is on] |
-| ISO sensitivity priority |Av [Exposure compensation value]ev iso[ISO sensitivity] [White balance] ['ts' when TimeShift is on] |
+| ISO sensitivity priority |ISO [Exposure compensation value]ev iso[ISO sensitivity] [White balance] ['ts' when TimeShift is on] |
 | MANUAL |MANU F[Aperture value] [Shutter speed] [ISO sensitivity] [White balance] ['ts' when TimeShift is on] |
 
 

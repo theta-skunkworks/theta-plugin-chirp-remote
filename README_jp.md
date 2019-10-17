@@ -38,7 +38,7 @@ Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp
 
 ## List of commands
 
-コマンドは「コマンド文字列+半角スペース+値」の形式です。
+コマンドは「コマンド文字列+半角スペース+値」の形式です。 <br>
 (例:露出補正を-0.3に指定したい場合には「ev -0.3」となります)
 
 |コマンド<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|値<br>&nbsp;|説明<br>&nbsp;|
@@ -77,7 +77,7 @@ Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp
 |オート|AUTO [露出補正値]ev [ホワイトバランス] [TimeShift onのとき'ts']|
 |絞り優先<br>（Z1のみ）|Av [露出補正値]ev F[絞り値] [ホワイトバランス] [TimeShift onのとき'ts']|
 |シャッター速度優先|Tv [露出補正値]ev ss[シャッター速度] [ホワイトバランス] [TimeShift onのとき'ts']|
-|ISO感度優先|Av [露出補正値]ev iso[ISO感度] [ホワイトバランス] [TimeShift onのとき'ts']|
+|ISO感度優先|ISO [露出補正値]ev iso[ISO感度] [ホワイトバランス] [TimeShift onのとき'ts']|
 |マニュアル|MANU F[絞り値] [シャッター速度] [ISO感度] [ホワイトバランス] [TimeShift onのとき'ts']|
 
 ### When Chirp protocol is "ultrasonic"

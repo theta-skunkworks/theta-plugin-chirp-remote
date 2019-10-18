@@ -19,6 +19,10 @@ English page [here](README.md)
 
 ![useage2](./img/useage2.gif)
 
+<br>
+[より詳しい動画はこちらのツイートを参照してください。](https://twitter.com/thetaplugin/status/1185027199990022144?s=20)
+<br>
+<br>
 
 Chirpは複数の周波数によるプロトコルに対応しています。
 それらの中で、本THETAプラグインが利用できるプロトコルは以下の3種類です。

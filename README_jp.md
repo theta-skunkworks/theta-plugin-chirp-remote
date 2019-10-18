@@ -20,7 +20,9 @@ English page [here](README.md)
 ![useage2](./img/useage2.gif)
 
 <br>
+
 [より詳しい動画はこちらのツイートを参照してください。](https://twitter.com/thetaplugin/status/1185027199990022144?s=20)
+
 <br>
 <br>
 

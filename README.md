@@ -20,7 +20,9 @@ You can control THETA by sound communication in the following two ways.
 ![useage2](./img/useage2.gif)
 
 <br>
+
 [See this tweet for a more detailed video.](https://twitter.com/thetaplugin/status/1185027199990022144?s=20)
+
 <br>
 <br>
 

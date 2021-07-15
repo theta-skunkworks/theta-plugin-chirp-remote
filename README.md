@@ -37,13 +37,13 @@ Among them, this THETA plug-in can use the following three types of protocols.
 - "Standard" (audible sound)
 
 
-The application “Chirp Messenger” released for smartphones by Asio Ltd. supports only the protocol of “16kHz-mono”.<br>
+~~The application “Chirp Messenger” released for smartphones by Asio Ltd. supports only the protocol of “16kHz-mono”.<br>
 If you want to use "Chirp Messenger" with other protocols, please rebuild and use the source code published by Asio Ltd. <br>
   For Android: https://github.com/chirp/chirp-android-examples#kotlin <br>
   For iOS: https://github.com/chirp/chirp-ios-examples/tree/master/Swift/Messenger <br>
-You can also refer to the “About building this source code” chapter of this document for user registration and protocol selection.
+You can also refer to the “About building this source code” chapter of this document for user registration and protocol selection.~~
 
-If you want to create your own music files, see [here](https://developers.chirp.io/docs/tutorials/command-line).
+~~If you want to create your own music files, see [here](https://developers.chirp.io/docs/tutorials/command-line).~~
 
 
 ## List of commands
@@ -127,13 +127,13 @@ The following information is saved when you close the plug-in and is used the ne
 - Choice of whether or not to perform time shift shooting.
 
 
-## About building this source code
+~~## About building this source code~~
 
-Please register as a user according to [this page](https://developers.chirp.io/applications), and write your credentials in the appropriate part of the source code before building.
+~~Please register as a user according to [this page](https://developers.chirp.io/applications), and write your credentials in the appropriate part of the source code before building.~~
 
-Acquire the “CHIRP_APP_CONFIG” key information for each of the three frequencies, and enter them in the following locations in MainActivity.java.
+~~Acquire the “CHIRP_APP_CONFIG” key information for each of the three frequencies, and enter them in the following locations in MainActivity.java.~~
 
-```java:MainActivity.java
+~~```java:MainActivity.java
     private static final String CHIRP_APP_KEY = "Please set the credential you have acquired.";
     private static final String CHIRP_APP_SECRET = "Please set the credential you have acquired.";
     //16kHz-mono
@@ -142,7 +142,7 @@ Acquire the “CHIRP_APP_CONFIG” key information for each of the three frequen
     private static final String CHIRP_APP_CONFIG_US = "Please set the CHIRP_APP_CONFIG key for the 'ultrasonic' protocol.";
     //standard
     private static final String CHIRP_APP_CONFIG_STD = "Please set the CHIRP_APP_CONFIG key for the 'standard' protocol.";
-```
+```~~
 
 
 ## Development Environment

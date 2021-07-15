@@ -5,15 +5,18 @@ English page [here](README.md)
 ## Overview
 
 このTHETAプラグインは[Chirpを使用しています](http://www.chirp.io)。<br>
-このTHETAプラグインを使うと、Asio Ltd. Chirpライブラリによる音通信によってTHETAをリモート操作できるようになります。
+このTHETAプラグインを使うと、Asio Ltd. Chirpライブラリによる音通信によってTHETAをリモート操作できるようになります。<br>
+<br>
+現在、Asio Ltd.はSONOSの傘下にあり、Chirpライブラリとスマートフォンアプリケーションは一般に公開されていません。
+ただし、このプラグインは次のように使用できます。
 
-以下2通りの方法で音通信によるTHETAの制御が行えます。
+~~以下2通りの方法で音通信によるTHETAの制御が行えます。~~
 
-1. Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」を利用して、「List of commands」の章に示すコマンド文字列を送信する。<br>
+~~1. Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」を利用して、「List of commands」の章に示すコマンド文字列を送信する。<br>
  Android用:https://play.google.com/store/apps/details?id=io.chirp.messenger<br>
- iOS用:https://apps.apple.com/jp/app/chirp-messenger/id1438119896<br>
+ iOS用:https://apps.apple.com/jp/app/chirp-messenger/id1438119896<br>~~
 
-![useage1](./img/useage1.gif)
+~~![useage1](./img/useage1.gif)~~
 
 2. 本リポジトリの[「audiofiles」](./audiofiles/)フォルダからダウンロードできる mp3形式 または wav形式の音楽ファイルを、各種オーディオプレーヤーで再生する。
 
@@ -33,13 +36,13 @@ Chirpは複数の周波数によるプロトコルに対応しています。
 - 「ultrasonic」（多くの人が聴き取れない周波数です）
 - 「standard」（可聴音です）
 
-Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」は、「16kHz-mono」のプロトコルのみに対応しています。<br>
+~~Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp Messenger」は、「16kHz-mono」のプロトコルのみに対応しています。<br>
 他のプロトコルで「Chirp Messenger」を利用したい場合には、Asio Ltd.が公開しているソースコードをビルドしなおして利用してください。<br>
  Android用:https://github.com/chirp/chirp-android-examples#kotlin<br>
  iOS用:https://github.com/chirp/chirp-ios-examples/tree/master/Swift/Messenger<br>
-ユーザー登録方法とプロトコルの選択方法に関しては、この文書の「About building this source code」の章も参考になります。
+ユーザー登録方法とプロトコルの選択方法に関しては、この文書の「About building this source code」の章も参考になります。~~
 
-独自に音楽ファイルを生成する場合には、[こちら](https://developers.chirp.io/docs/tutorials/command-line)を参照してください。
+~~独自に音楽ファイルを生成する場合には、[こちら](https://developers.chirp.io/docs/tutorials/command-line)を参照してください。~~
 
 
 ## List of commands
@@ -122,13 +125,13 @@ Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp
 - タイムシフト撮影をする/しない。
 
 
-## About building this source code
+~~## About building this source code~~
 
-[こちらのページ](https://developers.chirp.io/applications)にしたがってユーザー登録を行い、資格情報をソースコードの適切な箇所に記載してからビルドをおこなってください。
+~~[こちらのページ](https://developers.chirp.io/applications)にしたがってユーザー登録を行い、資格情報をソースコードの適切な箇所に記載してからビルドをおこなってください。~~
 
-「CHIRP_APP_CONFIG」キー情報は、3種類の周波数それぞれについて取得し、MainActivity.javaの以下に示す箇所に記載してください。
+~~「CHIRP_APP_CONFIG」キー情報は、3種類の周波数それぞれについて取得し、MainActivity.javaの以下に示す箇所に記載してください。~~
 
-```java:MainActivity.java
+~~```java:MainActivity.java
     private static final String CHIRP_APP_KEY = "Please set the credential you have acquired.";
     private static final String CHIRP_APP_SECRET = "Please set the credential you have acquired.";
     //16kHz-mono
@@ -137,7 +140,7 @@ Asio Ltd.がスマートフォン用にリリースしているアプリ「Chirp
     private static final String CHIRP_APP_CONFIG_US = "Please set the CHIRP_APP_CONFIG key for the 'ultrasonic' protocol.";
     //standard
     private static final String CHIRP_APP_CONFIG_STD = "Please set the CHIRP_APP_CONFIG key for the 'standard' protocol.";
-```
+```~~
 
 
 ## Development Environment

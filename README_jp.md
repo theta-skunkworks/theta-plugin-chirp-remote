@@ -131,7 +131,7 @@ Chirpは複数の周波数によるプロトコルに対応しています。
 
 ~~「CHIRP_APP_CONFIG」キー情報は、3種類の周波数それぞれについて取得し、MainActivity.javaの以下に示す箇所に記載してください。~~
 
-~~```java:MainActivity.java
+```java:MainActivity.java
     private static final String CHIRP_APP_KEY = "Please set the credential you have acquired.";
     private static final String CHIRP_APP_SECRET = "Please set the credential you have acquired.";
     //16kHz-mono
@@ -140,7 +140,7 @@ Chirpは複数の周波数によるプロトコルに対応しています。
     private static final String CHIRP_APP_CONFIG_US = "Please set the CHIRP_APP_CONFIG key for the 'ultrasonic' protocol.";
     //standard
     private static final String CHIRP_APP_CONFIG_STD = "Please set the CHIRP_APP_CONFIG key for the 'standard' protocol.";
-```~~
+```
 
 
 ## Development Environment

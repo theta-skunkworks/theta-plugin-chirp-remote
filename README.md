@@ -133,7 +133,7 @@ The following information is saved when you close the plug-in and is used the ne
 
 ~~Acquire the “CHIRP_APP_CONFIG” key information for each of the three frequencies, and enter them in the following locations in MainActivity.java.~~
 
-~~```java:MainActivity.java
+```java:MainActivity.java
     private static final String CHIRP_APP_KEY = "Please set the credential you have acquired.";
     private static final String CHIRP_APP_SECRET = "Please set the credential you have acquired.";
     //16kHz-mono
@@ -142,7 +142,7 @@ The following information is saved when you close the plug-in and is used the ne
     private static final String CHIRP_APP_CONFIG_US = "Please set the CHIRP_APP_CONFIG key for the 'ultrasonic' protocol.";
     //standard
     private static final String CHIRP_APP_CONFIG_STD = "Please set the CHIRP_APP_CONFIG key for the 'standard' protocol.";
-```~~
+```
 
 
 ## Development Environment
